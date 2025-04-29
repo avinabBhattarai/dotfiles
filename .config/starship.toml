@@ -1,0 +1,14 @@
+add_newline = false
+# ~/.config/starship.toml
+
+# A minimal left prompt
+format = """$directory$character"""
+
+# move the rest of the prompt to the right
+right_format = """$all"""
+
+[golang]
+format = '[🏎💨 $version](bold cyan) '
+
+[sudo]
+disabled = false
